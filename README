@@ -1,0 +1,20 @@
+cpp_ex2
+yair.shemer
+204371983
+######
+
+Description:
+This exercise was to practice inheritage. The father's class was a general fractal where
+the sub-classes were the different fractals, holding the size of it's grid. The fractal holds the
+degree of the shape.
+
+Implementation:
+After determining the inheritance tree, I had to stand the rule of five, most of it by default
+functions.
+Parsing the file is by reading it line by line and analyzing the numbers. If an error had occurred,
+the program would get rid of the allocated memory and exit with code 1. If the file was correct
+it would print the fractals in a reversed order, that is why I used a vector so I could read it
+the other way around in the printing process.
+I created a factory which would determine by the given type which fractal should be returned,
+or nullptr if no memory was allocated, so that the main would know of the failure.
+Also a function for getting rid of the vector was created to use it in several places.

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Yair Shemer/Desktop/University/2b/CPP/ex2/Fractal.h
+
+/cygdrive/c/Users/Yair Shemer/Desktop/University/2b/CPP/ex2/FractalDrawer.cpp
+iostream
+-
+fstream
+-
+vector
+-
+Fractal.h
+/cygdrive/c/Users/Yair Shemer/Desktop/University/2b/CPP/ex2/Fractal.h
+
